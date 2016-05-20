@@ -158,7 +158,6 @@ public class SnakeGame {
 
 	public static void setScreenSize(int windowSize){
 		//Pixels in window. 501 to have 50-pixel squares plus 1 to draw a border on last square
-		windowSize = 500;
 		xPixelMaxDimension = windowSize + borderSize;
 		yPixelMaxDimension = windowSize + borderSize;
 
