@@ -16,7 +16,6 @@ public class Maze extends Gameboard{
 
     public Maze(int maxX, int maxY, int squareSize, boolean isActive){
         super(maxX, maxY, squareSize);
-        // assign local mazeBlocks reference with empty gameboard array
         mazeBlocks = emptyGameboard;
         this.isActive = isActive;
     }

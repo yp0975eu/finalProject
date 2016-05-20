@@ -9,7 +9,6 @@ public class GameComponentManager {
     private Snake snake;
     private Score score;
     private Maze maze;
-    private Client client;
     /** Called every clock tick. Tell components to interact/update,
      * manage interactions, update score etc.
      * If there were more components - e.g walls, mazes,
@@ -31,13 +30,11 @@ public class GameComponentManager {
             }
 
 		}
-        client.sendPosition(snake);
     }
 
     public void newGame() {
         snake.reset();
         maze.reset();
-        client = new Client();
 
 
     }

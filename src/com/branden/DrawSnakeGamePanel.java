@@ -120,7 +120,7 @@ public class DrawSnakeGamePanel extends JPanel {
 
 		// tile the graphics
 		Graphics2D g2d = (Graphics2D) g;
-		int graphicWidth = 50;
+		int graphicWidth = 100;
 		int pixelCountY = -graphicWidth;
 		int pixelCountX;
 		float[] stops = { (float)0.3,(float) 0.9  };
